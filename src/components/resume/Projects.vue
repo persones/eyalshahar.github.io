@@ -1,0 +1,45 @@
+<template>
+  <div class="section">
+    <div class="section-title">Projects</div>
+    <div class="project" v-for="(project, index) in projects" :key="index">
+      <div class="project-header">
+        <div class="project-title" v-html="project.title" />
+        <div class="date">{{ project.end_date}}</div>
+      </div>
+      <div>
+        <span class="project-context" >{{ project.context }}, </span>
+        <span class="affilation">{{ project.affiliation }}</span>
+      </div>  
+      <div class="description" v-html="project.description" />
+      <div class="collaborators" v-if="project.collaborators">Collaborators : {{ project.collaborators.join(', ') }}</div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Projects",
+  props: {
+    projects: Array
+  }
+}
+</script> 
+
+<style>
+  .project {
+    margin: 0.5em 0;
+  }
+  .project-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .project-title {
+    font-weight: bold;
+  }
+
+  .project-context {
+    font-style: italic;
+  }
+</style>

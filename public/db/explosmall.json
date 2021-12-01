@@ -1,0 +1,20 @@
+{ "projects": [
+  {
+    "title": "ExploAIS",
+    "affiliation": "Exploratorium",
+    "start_date": "01/2016",
+    "end_date": "03/2016",
+    "description": "An open-source, pure JS library for decoding ship's digital radio communication",
+    "links": [
+      {
+        
+        "text": "ExploAIS on BitBucket",
+        "link": "https://bitbucket.org/exploratorium/exploais"
+      },
+      {
+        "text": "Exploratorium AIS stream",
+        "link": "http://ais.exploratorium.edu"
+      }
+    ]
+  }
+]}
