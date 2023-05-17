@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" :class="{ noscroll: showing!='resume'}">
     <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Fira+Code:wght@300&display=swap" rel="stylesheet">
     <div id="header" class="border-box">
@@ -55,7 +55,8 @@ export default {
       this.projects = this.projects.concat(j.projects);
     }
 
-    this.currentProject = this.projects[Math.floor(Math.random() * this.projects.length)];
+    //this.currentProject = this.projects[Math.floor(Math.random() * this.projects.length)];
+    this.currentProject = this.projects[0];
 
   },
   methods: {
@@ -80,6 +81,9 @@ export default {
     width: 100%;
     display: flex;
     flex-direction: column;
+  }
+
+  #app.noscroll { 
     /*overflow: hidden;*/
   }
 

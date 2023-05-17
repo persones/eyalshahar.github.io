@@ -18,7 +18,7 @@ projects:
       - Shelby Arnold
       - Punchdrunk
       - Tod Machover
-    description: a set of experimental digital portals connecting an
+    description: A set of experimental digital portals connecting an
       immersive-theater audience member with an online spectator
     images:
       - youtube: 9SuJ-3XPjUE
@@ -37,7 +37,7 @@ projects:
     role: Artist
     collaborators:
       - Catherine Winfield
-    description: an interactive soundscape created through a bio-mimetic process
+    description: An interactive soundscape created through a bio-mimetic process
       that is inspired by the auditory experience produced by the cicada
     images:
       - file: images/cicadence.jpg
@@ -51,7 +51,7 @@ projects:
     role: Artist
     collaborators:
       - Akito van Troyer
-    description: a set of illuminated, sound emitting lanterns, commissioned by MIT
+    description: A set of illuminated, sound emitting lanterns, commissioned by MIT
       for <em>FAST</em> - the Festival of Arts, Science and Technology, a part
       of MIT's 150th anniversary celebrations
     images:
@@ -64,7 +64,7 @@ projects:
     end_date: 06/2012
     affiliation: MIT Media Lab
     context: Master's thesis
-    description: "a music composition toy, which comprises a set of building blocks,
+    description: "A music composition toy, which comprises a set of building blocks,
       each containing a musical motif. The blocks can be connected to each other
       to create a musical theme. They can also be manipulated with three degrees
       of freedom: elongation changes the rhythmic distribution of the notes;

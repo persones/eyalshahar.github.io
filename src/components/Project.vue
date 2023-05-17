@@ -14,7 +14,7 @@
       <div id="project-description" class="project-field" v-html="description"></div>
       <Gallery v-bind:images="calcImages"></Gallery>
       <div class="project-field" v-if="collaborators">
-        <strong>Collaborators:</strong>
+        <strong>Collaborators: </strong>
         <span v-for="c in collaborators" :key="c" class="collaborator">{{ c }}</span>
       </div>
       <div v-if="links" id="project-links" class="project-field">
@@ -76,7 +76,7 @@ var months = [
 function parseDate(d) {
   let parts = d.split("/");
   if (parts.length === 2) {
-    return `${months[parseInt(parts[0])]} ${parts[1]}`;
+    return `${months[parseInt(parts[0] - 1)]} ${parts[1]}`;
   } else {
     return `${parts[0]} ${months[parseInt(parts[1])]} ${parts[2]}`;
   }

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="section">
     <div class="section-title">Talks</div>
     <div class="publication" v-for="(talk, index) in talks" :key="index"  >
       <div class="date">{{ talk.date }}</div>

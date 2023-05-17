@@ -4,11 +4,12 @@ projects:
     affiliation: Exploratorium
     context: Plants
     role: Exhibit Developer
-    description: Work in progess - exploring the stomata, openings controlling the
-      plant's gas exchange, under a microscope.
+    description: Work in progess - an exhibit allowing a museum visitor to 
+      explore the stomata, which are openings controlling the plant's gas exchange, 
+      under a scientific grade microscope.
     images:
       - file: images/plantdice.jpg
-        caption: LIDAR
+        caption: Stomata
   - title: LIDAR
     end_date: 12/2021
     affiliation: Exploratorium
@@ -27,7 +28,7 @@ projects:
     role: Exhibit Developer
     collaborators:
       - Kevin Boyd
-    description: a touchscreen kiosk discussing the range of human traits and how
+    description: A touchscreen kiosk discussing the range of human traits and how
       they are affected by genetic and environmental factors
     images:
       - file: images/isitgenetic.jpg
@@ -40,7 +41,7 @@ projects:
     affiliation: Exploratorium
     context: Cells to Self
     role: Exhibit Developer
-    description: a simulation of E.Coli bacteria moving towards sugar and away from
+    description: A simulation of E.Coli bacteria moving towards sugar and away from
       acid, in a process called chemotaxis. Using the touch screen, vistors can
       place acid and sugar in the virtual bateria's world and observe their
       reactions
@@ -55,10 +56,10 @@ projects:
     collaborators:
       - Kevin Boyd
       - Paul Dancstep
-    description: a touchscreen kiosk demonstrating the effects of genetics, life
+    description: A touchscreen kiosk demonstrating the effects of genetics, life
       choices, and chance on the risk of developing lung disease
     images:
-      - file: images/whatarethechances.jpg
+      - file: images/janesgenes.jpg
         caption: What are the chances?
   - title: Microscope Imaging Station
     end_date: 01/2017
@@ -68,7 +69,7 @@ projects:
     collaborators:
       - Kristina Yu
       - Joyce Ma
-    description: a touchscreen kiosk with physical controls, giving visitors control
+    description: A touchscreen kiosk with physical controls, giving visitors control
       over a scientific grade microscope while using machine vision to provide
       the visitor with scaffolding and guidance
     images:
@@ -90,7 +91,7 @@ projects:
     collaborators:
       - Kristina Yu
       - Joyce Ma
-    description: a conceptual piece that served as an attractor for the Cells to
+    description: A conceptual piece that served as an attractor for the Cells to
       Self exhibition
     images:
       - file: images/cellmirror.jpg
@@ -100,7 +101,7 @@ projects:
     affiliation: Exploratorium
     context: Wired Pier
     role: Exhibit Developer
-    description: an exhibit exhibit demonstating how computers on ships communicate
+    description: An exhibit exhibit demonstating how computers on ships communicate
       with eachother over a protocol called <em<AIS (Automatic Identification
       System)</em>, The exhibit has a radio receiver, a BeagleBone computer, and
       two LCD displays, showing digital information as decoded by the receiver
@@ -123,7 +124,7 @@ projects:
     collaborators:
       - Sebastian Martin
       - Alexis Shusterman
-    description: an interactive data visualization demonstrating levels of
+    description: An interactive data visualization demonstrating levels of
       CO<sub>2</sub> in the San Francisco Bay area, projected on a raised-relief
       map, known as the <em>Visualizing the Bay Area</em> exhibit
     images:
@@ -140,7 +141,7 @@ projects:
     collaborators:
       - Sebastian Martin
       - Lindsay Irving
-    description: an interactive data visualization demonstrating changes in sea
+    description: An interactive data visualization demonstrating changes in sea
       level in the San Francisco Bay area over the past 20,000 years, projected
       on a raised-relief map, known as the <em>Visualizing the Bay Area</em>
       exhibit
@@ -157,7 +158,7 @@ projects:
     role: Software Developer
     collaborators:
       - Christian Cerrito
-    description: a twist on the classic video game, in which four participants play
+    description: A twist on the classic video game, in which four participants play
       the game together, each responsible for only one of the four buttons that
       control the snake
     images:

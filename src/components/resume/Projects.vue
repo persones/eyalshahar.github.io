@@ -1,7 +1,7 @@
 <template>
   <div class="section">
     <div class="section-title">Projects</div>
-    <div class="project" v-for="(project, index) in projects" :key="index">
+    <div class="project" v-for="(project, index) in sortedProjects" :key="index">
       <div class="project-header">
         <div class="project-title" v-html="project.title" />
         <div class="date">{{ project.end_date}}</div>
@@ -21,6 +21,22 @@ export default {
   name: "Projects",
   props: {
     projects: Array
+  },
+  computed: {
+    sortedProjects() {
+      console.log([...this.projects].sort((a, b) => 
+        this.parseDate(a.end_date) > this.parseDate(b.end_date)).map(d => d.end_date));
+      return [...this.projects].sort((a, b) => 
+        this.parseDate(a.end_date) > this.parseDate(b.end_date)
+      );
+    }
+  },
+  methods: {
+    parseDate(d) {
+      let parts = d.split('/');
+      console.log(`${parts[1]}${parts[0]}`);
+      return `${parts[1]}{${parts[0]}}`
+    }
   }
 }
 </script> 

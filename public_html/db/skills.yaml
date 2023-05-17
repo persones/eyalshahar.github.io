@@ -1,0 +1,44 @@
+skillCatagories:
+  - skillCatagory: Software
+    skills:
+      - C/C++
+      - Java
+      - Python
+      - JavaScript
+      - HTML/CSS
+      - Assembly
+      - Matlab
+  - skillCatagory: Frameworks
+    skills:
+      - Node
+      - Vue
+      - Django
+      - JQuery
+      - Express
+      - Easel
+  - skillCatagory: Electronics
+    skills:
+      - circuit design
+      - microcontrollers
+      - Eagle
+  - skillCatagory: Fabrication
+    skills:
+      - SolidWorks
+      - machining
+      - CNC
+      - laser cutting
+      - 3D printing
+      - vacuum forming
+  - skillCatagory: Music Software
+    skills:
+      - Ableton Live
+      - Cubase/Nuendo
+      - Logic
+      - Protools
+      - Reaktor
+  - skillCatagory: Creative Coding
+    skills:
+      - Arduino
+      - Processing
+      - OpenFrameworks
+      - Max/MSP

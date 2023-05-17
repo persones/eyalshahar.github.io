@@ -173,14 +173,6 @@ select {
 	margin: 0px;
 }
 
-#header {
-	height: 3em;
-	line-height: 3em;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-}
-
 #extended-project h1 {
 	margin: 0;
 	font-size: 1.3em;

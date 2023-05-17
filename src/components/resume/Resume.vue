@@ -14,6 +14,7 @@
       <div class="columns-container">
         <div class="column">
           <WorkCatagory :catagory="workCatagories[0]" />
+          <Misc :misc="misc" /> 
         </div>
         <div class="column">
           <WorkCatagory :catagory="workCatagories[1]" />
@@ -21,16 +22,15 @@
           <Skills :skillCatagories="skillCatagories" />
         </div>    
       </div>  
-      <Misc :misc="misc" /> 
       
     </div>   
     <div class="">
-      <Publications sectionTitle="Publications" :publications="publications" />
-      <Publications sectionTitle="Conference Posters" :publications="posters" />
-      <Publications sectionTitle="Patents" :publications="patents" />
+      <Publications class="avoid-break" sectionTitle="Publications" :publications="publications" />
+      <Publications class="avoid-break" sectionTitle="Conference Posters" :publications="posters" />
+      <Publications class="avoid-break" sectionTitle="Patents" :publications="patents" />
       <Talks :talks="talks" />
-      <Discography :diskcography="discography" />
       <Projects :projects="projects" />
+      <Discography :diskcography="discography" />
     </div>
     
   </div>
@@ -119,26 +119,31 @@ export default {
   }
 
 
-  .section {
-    page-break-inside: avoid;
-  }
-
+  
   .contact {
     display: none;
   }
+  
   @media print {
     .page  {
-      page-break-inside: avoid;
+      page-break-inside: auto;
       page-break-after: always;    
-      height: 28cm;
+      
+      /*height: 28cm;*/
       width: 100%;
     }
-
+    
     .contact {
       display: initial;
     }
-  }
 
+    .avoid-break, .project {
+      page-break-inside: avoid;
+    }
+
+
+  }
+  
   .my-name {
     font-size: 2em;
   }

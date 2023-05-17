@@ -1,0 +1,26 @@
+publications:
+  - date: Oct. '19
+    authors: []
+    title: "Project Reliability Engineering: Pro Skills for Next Level Maker Projects"
+    publisher: ISBN 978-1-4842-5018-1, Apress Media
+  - date: Jun. '19
+    authors:
+      - Ma, J.
+      - Shahar, E.
+      - Metha, G.
+      - Eliceiri, K.
+      - Yu, K.
+    title: "Shedding Light: Integrating Bioimaging Technologies into the Design of
+      an Interactive Museum Exhibit"
+    publisher: Proceedings of the Designing Interactive Systems Conference 2019, San
+      Diego, CA
+  - date: May '12
+    authors: []
+    title: "SoundStrand: Composing with a Tangible Interface"
+    publisher: Proceedings of the 12th international conference on New interfaces
+      for musical expression, Ann Arbor, MA
+  - date: Mar. '12
+    authors: []
+    title: SoundStrand A toy for music composition
+    publisher: Proceedings of the 2012 Music, Mind and Invention Workshop, Ewing, NJ
+    hide: true
