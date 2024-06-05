@@ -3,25 +3,20 @@ workCatagories:
     workplaces:
       - workplace: The Exploratorium
         location: San Francisco, CA, USA
+        responsibilities:
+              - Setting software engineering standards and policies for exhibit development and production
+              - Designing and developing digitally-driven exhibits and
+                experiences
         positions:
           - title: Chief New Media Exhibit Engineer
             from: Apr. '21
             to: Present
-            responsibilities:
-              - Setting software engineering policies and standards across the
-                department and institution
-              - Designing and developing digitally-driven exhibits and
-                experiences
           - title: Senior New Media Exhibit Developer
             from: Aug. '18
             to: Apr. '21
-            responsibilities:
-              - Designed and developing digitally-driven exhibits and experiences
           - title: New Media Exhibit Developer
             from: Mar. '14
             to: Aug. '18
-            responsibilities:
-              - Designed and developing digitally-driven exhibits and experiences
       - workplace: Musikara
         location: Oakland, CA, USA
         positions:
@@ -91,10 +86,10 @@ workCatagories:
             responsibilities:
               - Taught design, construction and programming of robots in
                 preparation for the international FIRST Robotics Competition
-      - workplace: Hed College of Contemporary Music | Electronic Music Department
+      - workplace: Hed College of Contemporary Music
         location: Tel Aviv, Israel
         positions:
-          - title: Program Manager / Instructor
+          - title: Program Manager - Elec. Music
             from: Dec. '02
             to: May '06
             responsibilities:

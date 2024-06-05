@@ -1,15 +1,30 @@
 projects:
-  - title: Stomata
-    end_date: 12/2021
+  - title: Fabulouos Singing Stomata
+    end_date: 03/2023
     affiliation: Exploratorium
-    context: Plants
+    context: ¡Plantásticas!
     role: Exhibit Developer
-    description: Work in progess - an exhibit allowing a museum visitor to 
-      explore the stomata, which are openings controlling the plant's gas exchange, 
-      under a scientific grade microscope.
+    collaborators:
+    - Kevin Boyd
+    - Ray Larson
+    - Jenn Guitart
+    - Wayne Grim
+    - Douglas Clark
+    description: A video art piece, where stomata (small opening on plants' leaves which are used for 
+      gas exchange are animated to look as if they're singng.
     images:
       - file: images/plantdice.jpg
         caption: Stomata
+  - title: Meet Amalia
+    end_date: 03/2023
+    affiliation: Exploratorium
+    context: ¡Plantásticas!
+    role: Exhibit Developer
+    collaborators: 
+    - Kevin Boyd
+    - Ray Larson
+    description: An exhibit featuring plant fitted with sensors and a camera. The visitors can explore the data
+      to learn about how water travels from the roots, up the stem, and to the leaves.
   - title: LIDAR
     end_date: 12/2021
     affiliation: Exploratorium

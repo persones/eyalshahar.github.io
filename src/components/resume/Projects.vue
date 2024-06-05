@@ -7,7 +7,7 @@
         <div class="date">{{ project.end_date}}</div>
       </div>
       <div>
-        <span class="project-context" >{{ project.context }}, </span>
+        <span v-if="project.context" class="project-context" >{{ project.context }}<span v-if="project.affiliation">, </span></span>
         <span class="affilation">{{ project.affiliation }}</span>
       </div>  
       <div class="description" v-html="project.description" />

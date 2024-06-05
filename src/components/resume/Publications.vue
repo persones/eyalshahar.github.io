@@ -12,7 +12,17 @@
           {{ author}}, 
         </span>
         <span class="academic-title" v-html="publication.title" />, 
+        <span v-if="publication.book">In 
+          <span
+            class="author"
+            v-for="(editor, idx) in publication.editors"
+            :key="editor">
+            {{ editor }}<span v-if="idx == publication.editors.length - 1">(Ed<span v-if="publication.editors.length > 1">s</span>.)</span>,
+          </span>
+          <span class="academic-title" v-html="publication.book" />,
+        </span>
         <span class="publisher">{{ publication.publisher}}</span>
+        <span v-if="publication.ISBN">, ISBN: {{ publication.ISBN }}</span>
         </div>
     </div>
     

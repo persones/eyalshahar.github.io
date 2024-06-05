@@ -2,7 +2,7 @@
   <div class="position">
     <div class="position-header">
       <div class="position-title" v-html="position.title" />
-      <div class="date" v-html="`${position.from} - ${position.to}`" />
+      <div class="date" v-html="`${position.from} – ${position.to}`" />
     </div>
     <ul>
       <li 
@@ -22,7 +22,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
   .position {
     margin: 0.25em 0;
@@ -35,6 +35,11 @@ export default {
 
   .position-title {
     font-weight: bold;
+  }
+
+  .date {
+    width: 9em;
+    text-align-last: justify;
   }
   
 

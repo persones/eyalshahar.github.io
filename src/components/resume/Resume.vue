@@ -111,11 +111,10 @@ export default {
   .resume {
     font-size: 11px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: justify;
+    text-align: left;
     width: 70em;
     margin: auto;
     overflow: auto;
-
   }
 
 

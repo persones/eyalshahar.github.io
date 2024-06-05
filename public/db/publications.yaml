@@ -1,8 +1,25 @@
 publications:
+  - date: Jun. '24
+    authors: 
+    - Plasencia, J.
+    - Añoveros, P.
+    - Birnbaum, P.
+    - Fraser, K.
+    - Shahar, E.
+    - Shorofsky, K.
+    - Tulsky, S.
+    editors:
+    - Cempellinm, L.
+    - Crawford, P.
+    book: "Museum Studies for a Post-Pandemic World: Mentoring, Collaborations, and Interactive Knowledge Transfer in Times of Transformation"
+    title: "Lessons Learned from a Pandemic: How COVID-19 and the Racial Justice Crisis Impacted University of San Francisco’s Social Justice-Focused Museum Studies Curricula"
+    publisher: Routledge
+    ISBN:  978-1-0324-9216-2
   - date: Oct. '19
     authors: []
     title: "Project Reliability Engineering: Pro Skills for Next Level Maker Projects"
-    publisher: ISBN 978-1-4842-5018-1, Apress Media
+    publisher: Apress Media
+    ISBN: 978-1-4842-5018-1
   - date: Jun. '19
     authors:
       - Ma, J.
@@ -24,3 +41,4 @@ publications:
     title: SoundStrand A toy for music composition
     publisher: Proceedings of the 2012 Music, Mind and Invention Workshop, Ewing, NJ
     hide: true
+  

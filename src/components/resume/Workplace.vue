@@ -7,7 +7,14 @@
     v-for="position in workplace.positions"
     :position="position"
     :key="position.title" />
+    <ul>
+      <li 
+      v-for="responsibity in workplace.responsibilities"
+      :key=responsibity v-html="responsibity"
+      />
+    </ul>
   </div>
+  
 </template>
 
 <script>
@@ -26,8 +33,16 @@ export default {
 </script>
 
 <style>
+  .workplace {
+    margin-top: 5px;
+  }
+  
   .workspace-header {
+    padding: 3px;
+    border-radius: 7px;
     font-style: italic;
+    background: #e6edf6;
+    display: inline-block
   }
 
 </style>
