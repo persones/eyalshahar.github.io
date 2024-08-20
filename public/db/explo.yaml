@@ -10,8 +10,8 @@ projects:
     - Jenn Guitart
     - Wayne Grim
     - Douglas Clark
-    description: A video art piece, where stomata (small opening on plants' leaves which are used for 
-      gas exchange are animated to look as if they're singng.
+    description: A video art piece, where stomata - small opening on plants' leaves which are used for 
+      gas exchange - are animated to look as if they're singing.
     images:
       - file: images/plantdice.jpg
         caption: Stomata
